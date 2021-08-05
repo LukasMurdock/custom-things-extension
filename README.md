@@ -1,4 +1,4 @@
-# custom-things-extension
+# Custom Things Chrome Extension
 Open a tab, get a thing.
 
 ## Installing
