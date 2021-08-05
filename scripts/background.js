@@ -5,13 +5,9 @@
 'use strict';
 
 chrome.runtime.onInstalled.addListener(function () {
-
-  
-
   chrome.browserAction.onClicked.addListener(() => {
     chrome.tabs.create({
-      'url': "newpage.html"
+      url: 'newpage.html'
     });
-  })
-
+  });
 });
